@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1FFB982D728E4E8C7AB639 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693851DD5752B391A3C85884 /* Pods.framework */; };
+		F74F7DCA1C194362005DF1F6 /* UserHomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7DC91C194362005DF1F6 /* UserHomePageVC.swift */; };
+		F74F7DCC1C1943A8005DF1F6 /* AddBattlesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7DCB1C1943A8005DF1F6 /* AddBattlesVC.swift */; };
+		F74F7DCE1C19478B005DF1F6 /* DistressInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7DCD1C19478B005DF1F6 /* DistressInfoVC.swift */; };
+		F74F7DD01C194B87005DF1F6 /* DistressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7DCF1C194B87005DF1F6 /* DistressCell.swift */; };
+		F74F7DD21C194F1B005DF1F6 /* BattleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7DD11C194F1B005DF1F6 /* BattleTableCell.swift */; };
+		F74F7DD41C195600005DF1F6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74F7DD31C195600005DF1F6 /* Alamofire.framework */; };
+		F75FAD991C18BA63002C1874 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FAD981C18BA63002C1874 /* RegisterVC.swift */; };
 		F7A2E8CB1C18ACE400CE30CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E8CA1C18ACE400CE30CC /* AppDelegate.swift */; };
 		F7A2E8CD1C18ACE400CE30CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E8CC1C18ACE400CE30CC /* ViewController.swift */; };
 		F7A2E8D01C18ACE400CE30CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A2E8CE1C18ACE400CE30CC /* Main.storyboard */; };
@@ -22,6 +30,15 @@
 		F7A2E9081C18ACE400CE30CC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E9071C18ACE400CE30CC /* ExtensionDelegate.swift */; };
 		F7A2E90A1C18ACE400CE30CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E9091C18ACE400CE30CC /* NotificationController.swift */; };
 		F7A2E90C1C18ACE400CE30CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A2E90B1C18ACE400CE30CC /* Assets.xcassets */; };
+		F7A2E9221C18ADA400CE30CC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2E9211C18ADA400CE30CC /* Bolts.framework */; };
+		F7A2E9241C18ADAA00CE30CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2E9231C18ADAA00CE30CC /* Parse.framework */; };
+		F7A2E9261C18ADAE00CE30CC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2E9251C18ADAE00CE30CC /* FBSDKCoreKit.framework */; };
+		F7A2E9281C18ADB200CE30CC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2E9271C18ADB200CE30CC /* FBSDKLoginKit.framework */; };
+		F7A2E92A1C18ADB500CE30CC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2E9291C18ADB500CE30CC /* ParseFacebookUtilsV4.framework */; };
+		F7A2E92C1C18ADB900CE30CC /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2E92B1C18ADB900CE30CC /* ParseTwitterUtils.framework */; };
+		F7A2E92E1C18AEA800CE30CC /* UserDataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E92D1C18AEA800CE30CC /* UserDataSingleton.swift */; };
+		F7CB03D01C1B4609000E4D64 /* MainIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB03CF1C1B4609000E4D64 /* MainIC.swift */; };
+		F7CB03D11C1B4609000E4D64 /* MainIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB03CF1C1B4609000E4D64 /* MainIC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +98,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		693851DD5752B391A3C85884 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEF0408B48CCA1457C8B362 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F70993051C2B80CC41C7BAF3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F74F7DC91C194362005DF1F6 /* UserHomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomePageVC.swift; sourceTree = "<group>"; };
+		F74F7DCB1C1943A8005DF1F6 /* AddBattlesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBattlesVC.swift; sourceTree = "<group>"; };
+		F74F7DCD1C19478B005DF1F6 /* DistressInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistressInfoVC.swift; sourceTree = "<group>"; };
+		F74F7DCF1C194B87005DF1F6 /* DistressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistressCell.swift; sourceTree = "<group>"; };
+		F74F7DD11C194F1B005DF1F6 /* BattleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleTableCell.swift; sourceTree = "<group>"; };
+		F74F7DD31C195600005DF1F6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		F75FAD981C18BA63002C1874 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		F7A2E8C71C18ACE400CE30CC /* BattleInDistress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleInDistress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A2E8CA1C18ACE400CE30CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A2E8CC1C18ACE400CE30CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +132,15 @@
 		F7A2E9091C18ACE400CE30CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		F7A2E90B1C18ACE400CE30CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A2E90D1C18ACE400CE30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A2E9211C18ADA400CE30CC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts.framework"; sourceTree = "<group>"; };
+		F7A2E9231C18ADAA00CE30CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
+		F7A2E9251C18ADAE00CE30CC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		F7A2E9271C18ADB200CE30CC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		F7A2E9291C18ADB500CE30CC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "Pods/../build/Debug-iphoneos/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		F7A2E92B1C18ADB900CE30CC /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = "Pods/../build/Debug-iphoneos/ParseTwitterUtils.framework"; sourceTree = "<group>"; };
+		F7A2E92D1C18AEA800CE30CC /* UserDataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataSingleton.swift; sourceTree = "<group>"; };
+		F7CB03CE1C1B4608000E4D64 /* BattleInDistress WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BattleInDistress WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7CB03CF1C1B4609000E4D64 /* MainIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainIC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +148,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74F7DD41C195600005DF1F6 /* Alamofire.framework in Frameworks */,
+				F7A2E92C1C18ADB900CE30CC /* ParseTwitterUtils.framework in Frameworks */,
+				F7A2E92A1C18ADB500CE30CC /* ParseFacebookUtilsV4.framework in Frameworks */,
+				F7A2E9281C18ADB200CE30CC /* FBSDKLoginKit.framework in Frameworks */,
+				F7A2E9261C18ADAE00CE30CC /* FBSDKCoreKit.framework in Frameworks */,
+				F7A2E9241C18ADAA00CE30CC /* Parse.framework in Frameworks */,
+				F7A2E9221C18ADA400CE30CC /* Bolts.framework in Frameworks */,
+				9C1FFB982D728E4E8C7AB639 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +183,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263C0D9FA2AC5093190411C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F70993051C2B80CC41C7BAF3 /* Pods.debug.xcconfig */,
+				EDEF0408B48CCA1457C8B362 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82643BEFE8307B4409BCB7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F74F7DD31C195600005DF1F6 /* Alamofire.framework */,
+				F7A2E92B1C18ADB900CE30CC /* ParseTwitterUtils.framework */,
+				F7A2E9291C18ADB500CE30CC /* ParseFacebookUtilsV4.framework */,
+				F7A2E9271C18ADB200CE30CC /* FBSDKLoginKit.framework */,
+				F7A2E9251C18ADAE00CE30CC /* FBSDKCoreKit.framework */,
+				F7A2E9231C18ADAA00CE30CC /* Parse.framework */,
+				F7A2E9211C18ADA400CE30CC /* Bolts.framework */,
+				693851DD5752B391A3C85884 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7A2E8BE1C18ACE400CE30CC = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +216,8 @@
 				F7A2E8F31C18ACE400CE30CC /* BattleInDistress WatchKit App */,
 				F7A2E9021C18ACE400CE30CC /* BattleInDistress WatchKit Extension */,
 				F7A2E8C81C18ACE400CE30CC /* Products */,
+				263C0D9FA2AC5093190411C3 /* Pods */,
+				82643BEFE8307B4409BCB7B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,11 +236,11 @@
 		F7A2E8C91C18ACE400CE30CC /* BattleInDistress */ = {
 			isa = PBXGroup;
 			children = (
-				F7A2E8CA1C18ACE400CE30CC /* AppDelegate.swift */,
-				F7A2E8CC1C18ACE400CE30CC /* ViewController.swift */,
 				F7A2E8CE1C18ACE400CE30CC /* Main.storyboard */,
-				F7A2E8D11C18ACE400CE30CC /* Assets.xcassets */,
 				F7A2E8D31C18ACE400CE30CC /* LaunchScreen.storyboard */,
+				F7A2E8D11C18ACE400CE30CC /* Assets.xcassets */,
+				F7CB03CC1C1B3E02000E4D64 /* ViewControllerCodeBehind */,
+				F7CB03CD1C1B3E1C000E4D64 /* ObjectCB&singleton */,
 				F7A2E8D61C18ACE400CE30CC /* Info.plist */,
 			);
 			path = BattleInDistress;
@@ -198,8 +268,10 @@
 			isa = PBXGroup;
 			children = (
 				F7A2E8F41C18ACE400CE30CC /* Interface.storyboard */,
+				F7CB03CF1C1B4609000E4D64 /* MainIC.swift */,
 				F7A2E8F71C18ACE400CE30CC /* Assets.xcassets */,
 				F7A2E8F91C18ACE400CE30CC /* Info.plist */,
+				F7CB03CE1C1B4608000E4D64 /* BattleInDistress WatchKit App-Bridging-Header.h */,
 			);
 			path = "BattleInDistress WatchKit App";
 			sourceTree = "<group>";
@@ -225,6 +297,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F7CB03CC1C1B3E02000E4D64 /* ViewControllerCodeBehind */ = {
+			isa = PBXGroup;
+			children = (
+				F7A2E8CC1C18ACE400CE30CC /* ViewController.swift */,
+				F75FAD981C18BA63002C1874 /* RegisterVC.swift */,
+				F74F7DCD1C19478B005DF1F6 /* DistressInfoVC.swift */,
+				F74F7DCB1C1943A8005DF1F6 /* AddBattlesVC.swift */,
+				F74F7DC91C194362005DF1F6 /* UserHomePageVC.swift */,
+			);
+			name = ViewControllerCodeBehind;
+			sourceTree = "<group>";
+		};
+		F7CB03CD1C1B3E1C000E4D64 /* ObjectCB&singleton */ = {
+			isa = PBXGroup;
+			children = (
+				F7A2E8CA1C18ACE400CE30CC /* AppDelegate.swift */,
+				F74F7DCF1C194B87005DF1F6 /* DistressCell.swift */,
+				F74F7DD11C194F1B005DF1F6 /* BattleTableCell.swift */,
+				F7A2E92D1C18AEA800CE30CC /* UserDataSingleton.swift */,
+			);
+			name = "ObjectCB&singleton";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,10 +327,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A2E9181C18ACE400CE30CC /* Build configuration list for PBXNativeTarget "BattleInDistress" */;
 			buildPhases = (
+				99404FEA77FA123E1DAF4161 /* Check Pods Manifest.lock */,
 				F7A2E8C31C18ACE400CE30CC /* Sources */,
 				F7A2E8C41C18ACE400CE30CC /* Frameworks */,
 				F7A2E8C51C18ACE400CE30CC /* Resources */,
 				F7A2E9171C18ACE400CE30CC /* Embed Watch Content */,
+				281747784D27E78624231365 /* Embed Pods Frameworks */,
+				ECFB09FA6842690E62C80C6D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -417,13 +515,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		281747784D27E78624231365 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99404FEA77FA123E1DAF4161 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFB09FA6842690E62C80C6D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7A2E8C31C18ACE400CE30CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7A2E8CD1C18ACE400CE30CC /* ViewController.swift in Sources */,
+				F75FAD991C18BA63002C1874 /* RegisterVC.swift in Sources */,
+				F74F7DCE1C19478B005DF1F6 /* DistressInfoVC.swift in Sources */,
 				F7A2E8CB1C18ACE400CE30CC /* AppDelegate.swift in Sources */,
+				F7CB03D01C1B4609000E4D64 /* MainIC.swift in Sources */,
+				F7A2E92E1C18AEA800CE30CC /* UserDataSingleton.swift in Sources */,
+				F74F7DCC1C1943A8005DF1F6 /* AddBattlesVC.swift in Sources */,
+				F74F7DD01C194B87005DF1F6 /* DistressCell.swift in Sources */,
+				F74F7DD21C194F1B005DF1F6 /* BattleTableCell.swift in Sources */,
+				F74F7DCA1C194362005DF1F6 /* UserHomePageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +601,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CB03D11C1B4609000E4D64 /* MainIC.swift in Sources */,
 				F7A2E90A1C18ACE400CE30CC /* NotificationController.swift in Sources */,
 				F7A2E9081C18ACE400CE30CC /* ExtensionDelegate.swift in Sources */,
 				F7A2E9061C18ACE400CE30CC /* InterfaceController.swift in Sources */,
@@ -619,13 +774,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = BattleInDistress_WatchKit_Extension;
 				INFOPLIST_FILE = "BattleInDistress WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.BattleInDistress.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BattleInDistress WatchKit App/BattleInDistress WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -635,13 +794,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = BattleInDistress_WatchKit_Extension;
 				INFOPLIST_FILE = "BattleInDistress WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.BattleInDistress.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BattleInDistress WatchKit App/BattleInDistress WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -649,8 +811,13 @@
 		};
 		F7A2E9191C18ACE400CE30CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70993051C2B80CC41C7BAF3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = BattleInDistress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.BattleInDistress;
@@ -660,8 +827,13 @@
 		};
 		F7A2E91A1C18ACE400CE30CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEF0408B48CCA1457C8B362 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = BattleInDistress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.BattleInDistress;
@@ -736,6 +908,7 @@
 				F7A2E9121C18ACE400CE30CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7A2E9141C18ACE400CE30CC /* Build configuration list for PBXNativeTarget "BattleInDistress WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -744,6 +917,7 @@
 				F7A2E9161C18ACE400CE30CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7A2E9181C18ACE400CE30CC /* Build configuration list for PBXNativeTarget "BattleInDistress" */ = {
 			isa = XCConfigurationList;
@@ -752,6 +926,7 @@
 				F7A2E91A1C18ACE400CE30CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7A2E91B1C18ACE400CE30CC /* Build configuration list for PBXNativeTarget "BattleInDistressTests" */ = {
 			isa = XCConfigurationList;
@@ -760,6 +935,7 @@
 				F7A2E91D1C18ACE400CE30CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7A2E91E1C18ACE400CE30CC /* Build configuration list for PBXNativeTarget "BattleInDistressUITests" */ = {
 			isa = XCConfigurationList;
@@ -768,6 +944,7 @@
 				F7A2E9201C18ACE400CE30CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
